@@ -144,6 +144,10 @@ img {
     padding: 1%;
 }
 
+.articolo > * {
+    flex-grow: 1;
+}
+
 .text-container {
     width: 400px;
     margin-left: 2%;
