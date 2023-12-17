@@ -6,6 +6,13 @@ body {
     background-color: rgb(206, 206, 206);
 }
 
+
+/* 
+   =======================================
+   #           Card Style                #
+   =======================================
+*/
+
 .card {
     width: 22%;
     margin: auto;
@@ -69,4 +76,92 @@ img {
     border: 0px;
     width: 14em;
     height: 4em;
+}
+
+/* 
+   =======================================
+   #           Navbar style              #
+   =======================================
+*/
+
+.navbar-container {
+    width: 57%;
+    height: 10em;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.navbar {
+    display: flex;
+    margin: auto;
+    margin-top: 15%;
+    width: 90%;
+    height: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fef7e2;
+    border-radius: 70px;
+}
+
+.navbar > * {
+    display: flex;
+    width: 8em;
+    height: 3em;
+    background-color: #ffdf7e;
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#center-text {
+    height: 60%;
+    width: 12em;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 30%;
+}
+
+/* 
+   =======================================
+   #           Article Style             #
+   =======================================
+*/
+
+
+.articolo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom:100px;
+    margin-top:100px;
+    width: 60%;
+    background-color: #fbf7e3;
+    padding: 1%;
+}
+
+.articolo > * {
+    flex: 1 100%; 
+}
+.text-container {
+    width: 45%;
+    margin-left: 2%;
+}
+
+#article-image {
+    width: 50%;
+    margin: 1%;
+}
+
+#article-image img {
+    border-radius: 0px; 
+}
+
+#article-title {
+    color: #996e5d;
 }
