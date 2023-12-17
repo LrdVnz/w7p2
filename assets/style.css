@@ -134,8 +134,7 @@ img {
 
 .articolo {
     display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     margin: auto;
     margin-bottom:100px;
@@ -145,16 +144,13 @@ img {
     padding: 1%;
 }
 
-.articolo > * {
-    flex: 1 100%; 
-}
 .text-container {
-    width: 45%;
+    width: 400px;
     margin-left: 2%;
 }
 
 #article-image {
-    width: 50%;
+    width: 400px;
     margin: 1%;
 }
 
